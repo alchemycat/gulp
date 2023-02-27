@@ -1,0 +1,13 @@
+@import "./fonts";
+
+body {
+    * {
+        font-family: ProximaNova;
+        font-weight: 900;
+    }
+    header {
+        // width: 250px;
+        // height: 250px;
+        background: url("@img/models.jpeg");
+    }
+}
