@@ -1,14 +1,25 @@
 @import "./fonts";
 @import "./vendor/reset";
+@import "./vendor/variables";
+
+@import "./components/header";
 
 body {
     * {
-        font-family: ProximaNova;
-        font-weight: 900;
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        background-color: $lightgrey;
     }
-    header {
-        // width: 250px;
-        // height: 250px;
-        background: url("@img/models.jpeg");
+    
+    .container {
+        padding: 0px 50px 0px 50px;
+        margin: 0 auto;
+    }
+
+    .pixel {
+        font-family: Pixel;;
+    }
+    .roboto-900 {
+        font-weight: 900;
     }
 }
